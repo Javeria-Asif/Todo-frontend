@@ -1,0 +1,56 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.background{
+  background-image: url("./assets/todo-image.jpg");
+  background-position:contain;
+  height: 98vh; 
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.create_form input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+.create_form button{
+  padding:10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 15px 2px 11px;
+  margin-top: 2px;
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+.linethrough{
+    text-decoration: line-through;
+
+}
+.checkbox .icon{
+  margin-right: 5px;
+  font-size:15px;
+}
+.task div span {
+  margin: 0px 5px 0px 4px;
+}
+.task div .icon{
+  cursor: pointer;
+}
